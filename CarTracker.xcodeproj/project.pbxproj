@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7DADA62750EB9800DD70E0 /* CarTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7DADA52750EB9800DD70E0 /* CarTrackerApp.swift */; };
+		6D7DADA82750EB9800DD70E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7DADA72750EB9800DD70E0 /* ContentView.swift */; };
+		6D7DADAA2750EB9A00DD70E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7DADA92750EB9A00DD70E0 /* Assets.xcassets */; };
+		6D7DADAD2750EB9A00DD70E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7DADAC2750EB9A00DD70E0 /* Preview Assets.xcassets */; };
+		6D7DADB92750EFAE00DD70E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D7DADB82750EFAE00DD70E0 /* GoogleService-Info.plist */; };
+		6DC3D8F427521C9600519D35 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC3D8F327521C9600519D35 /* MainPageView.swift */; };
+		6DD6FBCD2750F2B700B168C2 /* CarLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6FBCC2750F2B700B168C2 /* CarLocationView.swift */; };
+		6DD6FBD3275106AA00B168C2 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6FBD2275106AA00B168C2 /* LocationViewModel.swift */; };
+		6DE1A5CC27651F8500DCD97B /* LoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1A5CB27651F8500DCD97B /* LoginUIView.swift */; };
+		6DE1A5CE2765202E00DCD97B /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1A5CD2765202E00DCD97B /* UserSettings.swift */; };
+		6DE1A5D027652B7400DCD97B /* ButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1A5CF27652B7400DCD97B /* ButtonHelper.swift */; };
+		6DFE84F527512CBF00350B17 /* FireStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFE84F427512CBF00350B17 /* FireStoreManager.swift */; };
+		6DFE84FF2751328600350B17 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6DFE84FE2751328600350B17 /* FirebaseAuth */; };
+		6DFE85012751328600350B17 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6DFE85002751328600350B17 /* FirebaseFirestore */; };
+		6DFE850327514CF300350B17 /* SaveLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFE850227514CF300350B17 /* SaveLocationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D7DADA22750EB9800DD70E0 /* CarTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7DADA52750EB9800DD70E0 /* CarTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTrackerApp.swift; sourceTree = "<group>"; };
+		6D7DADA72750EB9800DD70E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D7DADA92750EB9A00DD70E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D7DADAC2750EB9A00DD70E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D7DADB82750EFAE00DD70E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6DC3D8F327521C9600519D35 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		6DD6FBCC2750F2B700B168C2 /* CarLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLocationView.swift; sourceTree = "<group>"; };
+		6DD6FBD2275106AA00B168C2 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		6DE1A5CB27651F8500DCD97B /* LoginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIView.swift; sourceTree = "<group>"; };
+		6DE1A5CD2765202E00DCD97B /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		6DE1A5CF27652B7400DCD97B /* ButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHelper.swift; sourceTree = "<group>"; };
+		6DFE84F427512CBF00350B17 /* FireStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreManager.swift; sourceTree = "<group>"; };
+		6DFE850227514CF300350B17 /* SaveLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLocationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7DAD9F2750EB9800DD70E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFE84FF2751328600350B17 /* FirebaseAuth in Frameworks */,
+				6DFE85012751328600350B17 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7DAD992750EB9800DD70E0 = {
+			isa = PBXGroup;
+			children = (
+				6D7DADA42750EB9800DD70E0 /* CarTracker */,
+				6D7DADA32750EB9800DD70E0 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		6D7DADA32750EB9800DD70E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7DADA22750EB9800DD70E0 /* CarTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7DADA42750EB9800DD70E0 /* CarTracker */ = {
+			isa = PBXGroup;
+			children = (
+				6DE0C83F276A31BF00E9A91D /* View */,
+				6DD6FBD12751069700B168C2 /* ViewModel */,
+				6DD6FBCE2751031D00B168C2 /* Model */,
+				6D7DADB82750EFAE00DD70E0 /* GoogleService-Info.plist */,
+				6D7DADA52750EB9800DD70E0 /* CarTrackerApp.swift */,
+				6D7DADA92750EB9A00DD70E0 /* Assets.xcassets */,
+				6D7DADAB2750EB9A00DD70E0 /* Preview Content */,
+			);
+			path = CarTracker;
+			sourceTree = "<group>";
+		};
+		6D7DADAB2750EB9A00DD70E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6D7DADAC2750EB9A00DD70E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DD6FBCE2751031D00B168C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DFE84F427512CBF00350B17 /* FireStoreManager.swift */,
+				6DE1A5CD2765202E00DCD97B /* UserSettings.swift */,
+				6DE1A5CF27652B7400DCD97B /* ButtonHelper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DD6FBD12751069700B168C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DD6FBD2275106AA00B168C2 /* LocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DE0C83F276A31BF00E9A91D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DD6FBCC2750F2B700B168C2 /* CarLocationView.swift */,
+				6D7DADA72750EB9800DD70E0 /* ContentView.swift */,
+				6DFE850227514CF300350B17 /* SaveLocationView.swift */,
+				6DC3D8F327521C9600519D35 /* MainPageView.swift */,
+				6DE1A5CB27651F8500DCD97B /* LoginUIView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7DADA12750EB9800DD70E0 /* CarTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7DADB02750EB9A00DD70E0 /* Build configuration list for PBXNativeTarget "CarTracker" */;
+			buildPhases = (
+				6D7DAD9E2750EB9800DD70E0 /* Sources */,
+				6D7DAD9F2750EB9800DD70E0 /* Frameworks */,
+				6D7DADA02750EB9800DD70E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarTracker;
+			packageProductDependencies = (
+				6DFE84FE2751328600350B17 /* FirebaseAuth */,
+				6DFE85002751328600350B17 /* FirebaseFirestore */,
+			);
+			productName = CarTracker;
+			productReference = 6D7DADA22750EB9800DD70E0 /* CarTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7DAD9A2750EB9800DD70E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6D7DADA12750EB9800DD70E0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D7DAD9D2750EB9800DD70E0 /* Build configuration list for PBXProject "CarTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D7DAD992750EB9800DD70E0;
+			packageReferences = (
+				6DFE84FD2751328600350B17 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 6D7DADA32750EB9800DD70E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7DADA12750EB9800DD70E0 /* CarTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7DADA02750EB9800DD70E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7DADAD2750EB9A00DD70E0 /* Preview Assets.xcassets in Resources */,
+				6D7DADAA2750EB9A00DD70E0 /* Assets.xcassets in Resources */,
+				6D7DADB92750EFAE00DD70E0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7DAD9E2750EB9800DD70E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE1A5D027652B7400DCD97B /* ButtonHelper.swift in Sources */,
+				6DFE850327514CF300350B17 /* SaveLocationView.swift in Sources */,
+				6DD6FBCD2750F2B700B168C2 /* CarLocationView.swift in Sources */,
+				6DC3D8F427521C9600519D35 /* MainPageView.swift in Sources */,
+				6DE1A5CE2765202E00DCD97B /* UserSettings.swift in Sources */,
+				6D7DADA82750EB9800DD70E0 /* ContentView.swift in Sources */,
+				6DD6FBD3275106AA00B168C2 /* LocationViewModel.swift in Sources */,
+				6DE1A5CC27651F8500DCD97B /* LoginUIView.swift in Sources */,
+				6DFE84F527512CBF00350B17 /* FireStoreManager.swift in Sources */,
+				6D7DADA62750EB9800DD70E0 /* CarTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D7DADAE2750EB9A00DD70E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D7DADAF2750EB9A00DD70E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D7DADB12750EB9A00DD70E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = GJ3F2YLWDW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = kjbkjbjk;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = kjbjuu;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need premission";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.CarTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D7DADB22750EB9A00DD70E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = GJ3F2YLWDW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = kjbkjbjk;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = kjbjuu;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need premission";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.CarTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7DAD9D2750EB9800DD70E0 /* Build configuration list for PBXProject "CarTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7DADAE2750EB9A00DD70E0 /* Debug */,
+				6D7DADAF2750EB9A00DD70E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7DADB02750EB9A00DD70E0 /* Build configuration list for PBXNativeTarget "CarTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7DADB12750EB9A00DD70E0 /* Debug */,
+				6D7DADB22750EB9A00DD70E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DFE84FD2751328600350B17 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DFE84FE2751328600350B17 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DFE84FD2751328600350B17 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6DFE85002751328600350B17 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DFE84FD2751328600350B17 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6D7DAD9A2750EB9800DD70E0 /* Project object */;
+}
